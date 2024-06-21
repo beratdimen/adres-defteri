@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+form label {
+  flex: 1 0 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input {
+  flex: 1 0 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form .btn {
+  flex: 1 0 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form .btn:hover {
+  background-color: #4cae4c;
+}
+
+.clearLocal {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clearLocal:hover {
+  background-color: #c9302c;
+}
+
+.adressList {
+  margin-top: 30px;
+}
+
+.adressList .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.adressList .table th,
+.adressList .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.adressList .table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.adressList .table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.adressList .table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.adressList .table button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adressList .table .update {
+  background-color: #5bc0de;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.adressList .table .update:hover {
+  background-color: #31b0d5;
+}
+
+.adressList .table .remove {
+  background-color: #d9534f;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.adressList .table .remove:hover {
+  background-color: #c9302c;
+}
