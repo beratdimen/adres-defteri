@@ -43,7 +43,6 @@ form .btn {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 form .btn:hover {
@@ -59,7 +58,6 @@ form .btn:hover {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .clearLocal:hover {
@@ -98,14 +96,13 @@ form .btn:hover {
 .adressList .table button {
   padding: 5px 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
 .adressList .table .update {
   background-color: #5bc0de;
   color: #fff;
-  transition: background-color 0.3s ease;
 }
 
 .adressList .table .update:hover {
@@ -115,7 +112,6 @@ form .btn:hover {
 .adressList .table .remove {
   background-color: #d9534f;
   color: #fff;
-  transition: background-color 0.3s ease;
 }
 
 .adressList .table .remove:hover {
